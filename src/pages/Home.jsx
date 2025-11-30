@@ -143,13 +143,15 @@ const Home = () => {
                     <p className="text-indigo-100 text-lg mb-8 max-w-md">
                         Get 20% off on all smart home accessories this week. Upgrade your living space with the latest tech.
                     </p>
-                    <Button variant="secondary" size="lg" className="bg-white text-indigo-600 hover:bg-gray-100">
-                        Explore Deals
-                    </Button>
+                    <Link to="/shop?category=accessories">
+                        <Button variant="secondary" size="lg" className="bg-white text-indigo-600 hover:bg-gray-100">
+                            Explore Deals
+                        </Button>
+                    </Link>
                 </div>
                 <div className="md:w-1/2 flex justify-center">
                     <img
-                        src="https://images.unsplash.com/photo-1558089687-f282ffcbc0d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                        src="https://images.unsplash.com/photo-1507646227500-4d389b0012be?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
                         alt="Smart Home"
                         className="rounded-xl shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-500"
                     />
